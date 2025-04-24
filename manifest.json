@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube 5-Column Grid",
+  "version": "1.0",
+  "description": "Force YouTube rich-grid posts per row to 5 columns",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "run_at": "document_start",
+      "js": ["content.js"]
+    }
+  ]
+}
