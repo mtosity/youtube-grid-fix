@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "YouTube 5-Column Grid",
+  "name": "[mtosity] YouTube 5-Column Grid",
   "version": "1.0",
   "description": "Force YouTube rich-grid posts per row to 5 columns",
   "content_scripts": [
